@@ -42,7 +42,10 @@ public class Assignment4
 				for (int i = 2; i < input; i++)
 				{
 					if (input % i == 0)
-						prime = false;					
+					{
+						prime = false;	
+						break;
+					}
 				}
 			}
 			
